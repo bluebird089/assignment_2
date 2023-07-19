@@ -124,4 +124,22 @@
     .cs-text-part p {
         font-size: 13px;
     }
+
+    /* Game Category */
+
+    .games-category{
+        gap: 10px;
+        margin: 50px auto;
+    }
+
+    .game-category-box {
+        gap: 5px;
+        padding: 3px;
+    }
+    .game-category-box img {
+        width: 25px;
+    }
+    .game-category-box h5 {
+        font-size: 10px;
+    }
 }
