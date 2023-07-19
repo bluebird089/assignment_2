@@ -80,7 +80,8 @@
 
     /* Overflow Section */
     .overflow-images {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 20px;
     }
 
     .os-division1 {
@@ -88,6 +89,39 @@
     }
 
     .os-division1 #os-img-2 {
-        bottom: 14vh;
+        bottom: 16vw;
+    }
+    .os-division2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .os-division2 h3{
+        font-size: 30px;
+    }
+
+    .os-division2 p{
+        font-size: 15px;
+    }
+
+    .career-container {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .cs-text-part {
+        width: 90%;
+    }
+
+    .cs-img-part{
+        width: 90%;
+    }
+
+    .cs-text-part h3 {
+        font-size: 35px;
+    }
+    
+    .cs-text-part p {
+        font-size: 13px;
     }
 }
