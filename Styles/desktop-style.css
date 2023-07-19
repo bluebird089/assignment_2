@@ -1,0 +1,72 @@
+/* Universal Style */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+/* Header Section */
+
+/* Navbar Section */
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+/* Logo */
+
+.logo a {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.logo h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.logo-g {
+    color: #FF42A5;
+}
+
+/* Navbar */
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navbar ul li:last-child {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    gap: 10px;
+    padding: 5px 15px;
+}
+
+.navbar ul li:last-child img{
+    width: 25px;
+}
+
+.navbar ul li a {
+    color: #3C354F;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
