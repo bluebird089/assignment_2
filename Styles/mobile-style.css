@@ -58,4 +58,36 @@
         justify-content: space-around;
         margin: 0px auto;
     }
+
+    /* We Are Gamer Section */
+
+    .we-r-gamer{
+        flex-direction: column;
+    }
+    .we-r-gamer img {
+        width: 100%;
+    }
+
+    .we-r-gamer-text{
+        text-align: center;
+    }
+    .we-r-gamer-text h3{
+        font-size: 30px;
+    }
+    .we-r-gamer-text p{
+        font-size: 13px;
+    }
+
+    /* Overflow Section */
+    .overflow-images {
+        flex-direction: column;
+    }
+
+    .os-division1 {
+        width: 70%;
+    }
+
+    .os-division1 #os-img-2 {
+        bottom: 14vh;
+    }
 }
