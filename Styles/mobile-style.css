@@ -19,6 +19,7 @@
     /* Banner Section */
     .banner-section {
         flex-direction: column-reverse;
+        gap: 15px;
     }
 
     .banner-images {
@@ -28,26 +29,33 @@
         width: 100%;
     }
     .banner-text h4 {
-        font-size: 30px;
+        font-size: 27px;
         text-align: center;
     }
 
     .banner-text h3 {
-        font-size: 45px;
+        font-size: 40px;
         text-align: center;
     }
 
     .banner-list{
-        width:50%;
-        margin: 0px auto;
+        width:200px;
+        margin: 10px auto;
     }
 
     .banner-list p {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .banner-text button {
-        font-size: 2em;
-        padding: 20px 40px;
+        font-size: 15px;
+        padding: 10px 23px;
+        text-align: center;
+    }
+    .banner-button{
+        width: 250px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0px auto;
     }
 }
