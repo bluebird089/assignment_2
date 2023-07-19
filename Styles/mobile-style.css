@@ -142,4 +142,29 @@
     .game-category-box h5 {
         font-size: 10px;
     }
+
+    .footer-container{
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .footer-social-icon ul li a{
+        color: #FFF;
+        text-decoration: none;
+        transition: 0.3;
+        font-size: 20px;
+    }
+
+    .footer-social-icon ul{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .video-box{
+        flex-direction: column;
+    }
+    
+    .v-box{
+        width: 100%;
+    }
 }

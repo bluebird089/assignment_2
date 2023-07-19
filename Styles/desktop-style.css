@@ -194,6 +194,11 @@
 
 /* Funny Video Section */
 
+.funny-video{
+    margin: 50px auto;
+
+}
+
 .video-box {
     display: flex;
     gap: 20px;
@@ -205,18 +210,15 @@
 
 .v-box img {
     width: 100%;
-    z-index: 2;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    transition: 0.3s;
 }
 
 .v-box img:hover {
     border: 5px solid #F948B2;
-}
-
-.funny-vid-box {
-    background-color: rgba(0, 0, 0, 0.466);
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+    border-radius: 20px;
+    transition: 0.3s;
 }
 
 .v-box p {
@@ -228,6 +230,7 @@
 
 .funny-video-heading {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .funny-video-heading h3 {
@@ -257,7 +260,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 0px;
+    margin: 50px 0px;
     max-width: 1100px;
     padding: 0 20px;
     margin: auto;
@@ -392,4 +395,68 @@
     font-size: 15px;
     font-weight: 600;
     transition: 0.2s;
+}
+
+/* Footer Section */
+
+footer{
+    background: #0B0223;
+    padding: 50px 0px;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer-nav ul li{
+    list-style: none;
+}
+.footer-nav ul li a{
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.3;
+}
+
+.footer-nav ul li a:hover{
+    color: #FF42A5;
+    transition: 0.3;
+}
+
+.footer-container{
+    max-width: 50%;
+    margin: auto;
+}
+
+.footer-social-icon ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.footer-social-icon ul li{
+    list-style: none;
+}
+
+.footer-social-icon ul li a{
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.3;
+    font-size: 30px;
+}
+
+.footer-container p{
+    color: #FFF;
+    text-align: center;
+}
+
+.footer-container .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container .logo h3{
+    color: #FFF;
 }
